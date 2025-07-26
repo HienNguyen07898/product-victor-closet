@@ -1,0 +1,15 @@
+<?php
+declare(strict_types=1);
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller AS AppController;
+
+class HomeController extends AppController
+{
+    public function index()
+    {
+        echo 'Page Index of Home';
+    }
+}
