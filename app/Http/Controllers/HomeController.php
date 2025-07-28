@@ -22,4 +22,9 @@ class HomeController extends AppController
     {
         echo 'Page edit of Home';
     }
+
+    public function destroy()
+    {
+        echo 'Page destroy of Home';
+    }
 }

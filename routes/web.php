@@ -8,4 +8,5 @@ Route::controller(Controllers\HomeController::class)->name('home.')->group(funct
     Route::get('/', 'index')->name('index');
     Route::get('/create', 'create')->name('create');
     Route::get('/edit', 'edit')->name('edit');
+    Route::get('/destroy', 'destroy')->name('destroy');
 });
