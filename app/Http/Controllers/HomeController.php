@@ -12,4 +12,9 @@ class HomeController extends AppController
     {
         echo 'Page Index of Home';
     }
+
+    public function create()
+    {
+        echo 'Page create of Home';
+    }
 }
