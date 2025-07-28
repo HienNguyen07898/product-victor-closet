@@ -7,4 +7,5 @@ use App\Http\Controllers;
 Route::controller(Controllers\HomeController::class)->name('home.')->group(function () {
     Route::get('/', 'index')->name('index');
     Route::get('/create', 'create')->name('create');
+    Route::get('/edit', 'edit')->name('edit');
 });

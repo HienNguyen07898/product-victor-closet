@@ -17,4 +17,9 @@ class HomeController extends AppController
     {
         echo 'Page create of Home';
     }
+
+    public function edit()
+    {
+        echo 'Page edit of Home';
+    }
 }
