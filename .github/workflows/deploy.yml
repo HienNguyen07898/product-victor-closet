@@ -28,7 +28,7 @@ jobs:
 
     - name: 🏗 Build Nginx Image
       run: |
-        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/laravel-nginx:latest -f docker/nginx/Dockerfile docker/nginx
+        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/laravel-nginx:latest -f docker/nginx/Dockerfile .
 
     - name: 🚀 Push Images to Docker Hub
       run: |
