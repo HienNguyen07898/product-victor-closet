@@ -25,6 +25,6 @@ class HomeController extends AppController
 
     public function destroy()
     {
-        echo 'Page destroy of Home';
+        echo 'Page destroy of Home aa';
     }
 }
